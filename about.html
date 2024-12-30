@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About AFFIX Technology - Empowering Your Business with Cutting-Edge Solutions">
+    <title>About Us - AFFIX Technology</title>
+    <style>
+        /* Add necessary styles */
+        /* Same as the previous ones you already have, with a few additions for layout */
+        body {
+            background-color: #f5f5f5;
+            font-family: 'Helvetica Neue', sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        #about {
+            
+            text-align: center;
+        }
+
+        #about h2 {
+            font-size: 2.5rem;
+            color: #003366;
+            margin-bottom: 30px;
+        }
+
+        #about p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #555;
+
+        }
+
+        #about .extended-info {
+            font-size: 1.1rem;
+            color: #444;
+            line-height: 1.8;
+            margin-top: 20px;
+            text-align: center;
+
+            
+
+        }
+         nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #003366;
+            color: #fff;
+            padding: 16px 40px;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1s ease-out;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #f78c42;
+        }
+
+        /* Center the unordered list and its items */
+.extended-info ul {
+    list-style-type: none;
+    text-align: center; /* Center the whole list */
+    padding-left: 0; /* Remove default left padding of the list */
+    justify-content: center;
+}
+
+.extended-info ul li {
+    display: fixed; /* Makes each list item align horizontally */
+    margin: 10px 20px; /* Adjust spacing between items */
+    text-align: center; /* Align text of the list item to the left */
+}
+
+
+        
+        /* Contact Form Section */
+        #contact {
+            background-color: #003366;
+            padding: 60px 20px;
+            color: #fff;
+        }
+
+        #contact h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        form {
+            background: #f8f8f8;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 30px;
+            justify-content: center;
+            text-align: center;
+        }
+
+        form input,
+        form textarea,
+        form select {
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 18px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+            box-sizing: border-box;
+            transition: border-color 0.3s ease;
+        }
+
+        form input:focus,
+        form textarea:focus,
+        form select:focus {
+            border-color: #f78c42;
+        }
+
+        form button {
+            background-color: #0d4b6e;
+            color: #fff;
+            padding: 14px 28px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+
+        }
+
+        form button:hover {
+            background-color: #f78c42;
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #f78c42;
+        }
+
+        footer a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+       
+
+    <!-- About Us Section with Detailed Info -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At AFFIX Technology, we are committed to helping businesses scale and secure their operations with innovative tech solutions. Our experts work hand-in-hand with your team to provide custom solutions that enhance efficiency, productivity, and security. From software development to cloud services, we leverage the latest technologies to keep your business ahead of the curve.</p>
+
+        <!-- Extended Information -->
+        <div class="extended-info">
+            <h3>Our Vision</h3>
+            <p>Our vision is to create a world where businesses of all sizes can easily access powerful technological tools to thrive in their industries. We aim to bridge the gap between complex technology and businesses looking for streamlined solutions.</p>
+            <h3>Our Mission</h3>
+            <p>To empower companies with cutting-edge technology that solves real-world problems. Through our diverse service offerings, we ensure that your business remains competitive, efficient, and secure in an ever-changing technological landscape.</p>
+            <h3>Our Values</h3>
+            <ul>
+                <li>Innovation: We embrace change and look for new ways to solve problems.</li>
+                <li>Integrity: We believe in honest communication and transparency with our clients.</li>
+                <li>Excellence: We aim for the highest standards in all our projects and services.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Your Phone Number" required>
+            <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+            <select name="service" required>
+                <option value="" disabled selected>Select Service</option>
+                <option value="Software Development">Software Development</option>
+                <option value="Cloud Solutions">Cloud Solutions</option>
+                <option value="IT Consulting">IT Consulting</option>
+                <option value="Cybersecurity">Cybersecurity</option>
+            </select>
+            <button type="submit">Send Message</button>
+            <!-- Loading message -->
+            <div id="loading-message" class="loading-message">Sending your message...</div>
+        </form>
+    </section>
+     <footer>
+        <p>© 2024 AFFIX Technology | <a href="mailto:contact@affixtech.com">contact@affixtech.com</a></p>
+        <p><a href="affix2.html#home">Back to Top</a></p>
+    </footer>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // Show loading message
+            document.getElementById('loading-message').style.display = 'block';
+
+            const formData = new FormData(e.target);
+
+            fetch('https://script.google.com/macros/s/AKfycbw_tRXE1m20w0aleHzkLaEGofZvGOT3lRBSwubhOznfanws5DREx8RE8W0KjXMuxdJ_/exec', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.text())
+            .then(responseText => {
+                setTimeout(() => {
+                    alert('Your message has been sent successfully!');
+                    document.getElementById('contact-form').reset();
+                    document.getElementById('loading-message').style.display = 'none'; // Hide loading message
+                }, 3000);
+            })
+            .catch(error => {
+                alert('There was an error submitting your message. Please try again.');
+                console.error('Error:', error);
+                document.getElementById('loading-message').style.display = 'none'; // Hide loading message on error
+            });
+        });
+    </script>
+
+</body>
+
+</html>
